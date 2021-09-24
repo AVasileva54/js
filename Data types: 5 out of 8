@@ -1,0 +1,35 @@
+// Ваше имя и фамилия:
+//Anisia Vasileva
+//1. Создайте переменные со следующими значениями:
+        let num = 5734050;
+        let str = 'BORSCH';
+        let bool = true;
+        let a = 'false';
+        let b = null;
+        let c = NaN;
+        let d = undefined;
+
+// 2. Определите тип данных у созданных переменных и выведите в консоль.
+console.log(typeof num, typeof str, typeof bool, typeof a, typeof b, typeof c, typeof d);
+// 3. Задайте переменную "цена игрушки" (на английском, конечно!), присвойте в нее значение 25.
+//    Выведите в консоль предложение "Стоимость пяти игрушек равна 125".
+//    При этом предложение должно быть выведено с помощью backticks(``) и переменной "цена игрушки".
+let priceOfToy = 25;
+console.log(`Cost of 5 toys is ${priceOfToy*5}$`);
+// 4. Задайте переменную а со значением 12.
+// Выведите в консоль выражение типа boolean, значение которого равно true, если переменная a четная,
+// и false, если значение переменной a нечетное.
+let x = 12;
+console.log(x % 2 === 0? 'even': 'odd');
+// 5. Задайте переменную, значением которой является количество суток (например, 5). 
+// Напишите последовательность команд, вычисляющих количество часов, минут и секунд в данном количестве суток.
+let days = 5;
+let hours = days * 24;
+let minutes = hours * 60;
+let seconds = minutes * 60;
+console.log(days, hours, minutes, seconds);
+// 6. Число жителей города 185600 человек. Ежегодно население в нем увеличивается на 2%. 
+//    Напишите последовательность команд для вычисления количества жителей города через год.
+let residents = 185600;
+let numberOfYears = x;
+console.log(`Number of residents after ${numberOfYears} years is ${residents + residents*numberOfYears}`);
